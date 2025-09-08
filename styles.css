@@ -1,0 +1,587 @@
+.path-mod-pulse .fcontainer .emailvars span,
+#page-admin-setting-local_pulsepro_settings .emailvars span,
+.path-admin-mod-pulse .emailvars span {
+    color: #000;
+    background: #ffbf46;
+    padding: 3px 7px;
+    margin-bottom: 5px;
+    margin-right: 3px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.path-mod-pulse .emailvars,
+#page-admin-setting-local_pulsepro_settings .emailvars,
+.path-admin-mod-pulse .emailvars {
+    position: relative;
+    font-size: smaller;
+}
+
+#page-mod-pulse-addons-preset-presets table tbody tr td a {
+    display: inline-block;
+}
+
+#page-mod-pulse-addons-preset-presets table tbody tr td a i.icon {
+    margin-right: 0;
+}
+
+@media (max-width: 767px) {
+
+    .path-mod-pulse .fcontainer .emailvars,
+    #page-admin-setting-local_pulsepro_settings .emailvars,
+    .path-admin-mod-pulse .emailvars {
+        width: 100%;
+    }
+}
+
+.section .pulse.modtype_pulse .contentwithoutlink,
+.section .pulse.modtype_pulse .activityinstance {
+    display: block;
+    padding-right: 15px;
+}
+
+#page-mod-pulse-approve #participants .approvebtn {
+    margin-left: 10px;
+}
+
+#page-mod-pulse-mod #fgroup_id_completionrequireapproval .form-check.fitem {
+    margin-right: 15px;
+}
+
+#page-mod-pulse-mod #fgroup_id_completionrequireapproval .pulse-completion-roles {
+    margin-left: 10px;
+}
+
+.pulse.modtype_pulse .pulse-completion-btn .badge {
+    display: table;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.section .pulse.modtype_pulse .pulse-completion-btn {
+    text-align: right;
+    margin: 15px 0;
+}
+
+.pulse.modtype_pulse .pulse-completion-btn .badge {
+    margin-bottom: 15px;
+}
+
+.preset-item-content .preset-icon,
+.preset-item-content .preset-title,
+.preset-item-content .description,
+.preset-item-content .preset-config-params {
+    margin-bottom: 20px;
+}
+
+.pulse-presets-list .pulse-preset-item {
+    height: 100%;
+    text-align: center;
+    border: 1px solid #ccc;
+    box-shadow: 1px 2px 10px 1px #ccc;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.pulse-presets-list .pulse-presets-wrapper .col-lg-4.col-md-6.col-xs-12 {
+    margin-bottom: 30px;
+}
+
+#page-mod-pulse-mod .manage-presets {
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+#page-mod-pulse-mod .promotional-content {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 15px;
+    justify-content: space-between;
+}
+
+#page-mod-pulse-mod .pulse-preset-promotional {
+    background: #6c757d;
+    color: #fff;
+    font-weight: bold;
+}
+
+#page-mod-pulse-mod .learn-more .btn-default {
+    background-color: #fff;
+}
+
+#page-mod-pulse-mod .preset-config-params [data-fieldtype="submit"],
+#page-mod-pulse-mod .preset-config-params #fitem_id_submitbutton {
+    display: none;
+}
+
+#page-mod-pulse-mod div#pulse-presets-data {
+    min-height: 200px;
+}
+
+#page-mod-pulse-mod .preset-item-content .preset-icon i {
+    font-size: 1.5rem;
+}
+
+#page-mod-pulse-mod .preset-item-content .preset-title h5 {
+    font-weight: 600;
+}
+
+#page-mod-pulse-mod .preset-item-content .badge.badge-secondary {
+    white-space: normal;
+}
+
+#page-mod-pulse-mod .popover.show {
+    z-index: 2000;
+}
+
+.pulse.modtype_pulse .pulse-box div.alert {
+    display: flex;
+    align-items: center;
+}
+
+.modtype_pulse .pulse-box-icon .icon {
+    font-size: 1.5rem;
+}
+
+.mod-pulse-automation-table .template-add-form .btn {
+    margin-left: 10px;
+}
+
+/* Auto templates styles */
+#pulse_automation_template thead {
+    display: none;
+}
+
+.mod-pulse-automation-table .updatestatus-switch-form .custom-control-input {
+    width: 100%;
+    z-index: 1;
+}
+
+/* Automation templates table */
+.mod-pulse-automation-table .template-add-form .fitem {
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.mod-pulse-automation-table .template-add-form .fitem .col-md-3 {
+    width: 0;
+    max-width: none;
+    flex: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.mod-pulse-automation-table .template-add-form .fitem .col-md-9 {
+    max-width: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+/* .mod-pulse-automation-table .template-add-form {
+    display: flex;
+    align-items: center;
+} */
+.mod-pulse-automation-table .template-add-form > * {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.mod-pulse-automation-table .template-add-form > a.btn {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.mod-pulse-automation-table table.generaltable {
+    border-spacing: 0 10px;
+    border-collapse: separate;
+    padding: 0 10px;
+    margin-top: 20px;
+}
+
+.mod-pulse-automation-table table.generaltable thead {
+    display: none;
+}
+
+.mod-pulse-automation-table table.generaltable thead tr th {
+    border: 0;
+}
+
+.mod-pulse-automation-table table.generaltable tbody tr {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    background: none;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.mod-pulse-automation-table table.generaltable tbody tr:nth-of-type(odd) {
+    background: none;
+}
+
+.mod-pulse-automation-table table.generaltable tbody td {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    border-collapse: collapse;
+    vertical-align: middle;
+}
+
+.mod-pulse-automation-table div:not(.automation-instruction) > div > table.generaltable tbody td:not([colspan]):first-child {
+    border-left: 1px solid #eee;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.mod-pulse-automation-table table.generaltable tbody td:last-child {
+    border-right: 1px solid #eee;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.mod-pulse-automation-table table.generaltable tbody td:last-child .menu-item-actions {
+    display: flex;
+    justify-content: center;
+}
+
+.mod-pulse-automation-table table.generaltable tbody td p {
+    text-align: left;
+    margin: 10px;
+}
+
+.mod-pulse-automation-table table.generaltable tbody td .action-icon i {
+    width: 40px;
+    height: 40px;
+    max-width: none;
+    max-height: none;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 50%;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mod-pulse-automation-table table.generaltable tbody td .action-icon.pulseaction_notification i,
+.mod-pulse-automation-table .badge.pulseaction_notification {
+    background-color: #7b61ff;
+}
+
+.mod-pulse-automation-table table.generaltable tbody td span.inplaceeditable {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.mod-pulse-automation-table table.generaltable tbody td .template-reference {
+    color: #999;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 30px;
+    text-align: right;
+    margin-bottom: 0;
+}
+
+.mod-pulse-automation-table table.generaltable tbody td .menu-item-actions.item-actions > * {
+    font-size: 16px;
+    color: #000;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.mod-pulse-automation-table table.generaltable tbody td .menu-item-actions.item-actions
+.pulse-instance-status-switch .custom-control-label {
+    display: block;
+}
+
+.mod-pulse-automation-table .automation-instruction {
+    margin-top: 70px;
+}
+
+.path-admin-mod-pulse-automation-templates form.mform .tab-content .tab-pane .form-group .form-inline span.override-count-element {
+    font-size: 14px;
+    color: #000;
+    display: inline-block;
+    margin-left: 10px;
+    background-color: #ced4da;
+    cursor: pointer;
+}
+
+.mod-pulse-automation-table .table-responsive table.generaltable tbody tr {
+    border: 0;
+    box-shadow: none;
+}
+
+.mod-pulse-automation-table .table-responsive table.generaltable tbody td {
+    border: 0;
+}
+
+.mod-pulse-automation-table .table-responsive table.generaltable tbody td:first-child {
+    text-align: right;
+}
+
+.mod-pulse-automation-table .table-responsive table.generaltable tbody td:last-child {
+    text-align: left;
+}
+
+.mod-pulse-automation-table table.generaltable tbody td .badge.pulseaction_notification {
+    background-color: #7b61ff;
+}
+
+.mod-pulse-automation-filter .box.generalbox {
+    position: relative;
+}
+
+.mod-pulse-automation-filter .filter-form-container {
+    float: right;
+}
+
+.mod-pulse-automation-filter .filter-form-container #pulse-automation-filter i.icon {
+    margin-right: 0;
+}
+
+.mod-pulse-automation-filter .filter-form-container #pulse-automation-filterform {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 0 0.1px;
+    padding: 15px;
+    position: absolute;
+    top: 80%;
+    right: 0;
+    z-index: 2;
+}
+
+.mod-pulse-automation-filter .filter-form-container #pulse-automation-filterform form .form-group {
+    margin-left: 0;
+}
+
+.mod-pulse-automation-filter .filter-form-container #pulse-automation-filterform form .form-group .col-form-label {
+    padding-left: 0;
+}
+
+/* Templates Instance style */
+.path-mod-pulse-automation form.mform .tab-content .tab-pane .fitem .felement .custom-switch {
+    width: auto;
+    padding-left: 0;
+    margin-top: 8px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.path-mod-pulse-automation form.mform .tab-content .tab-pane .fitem .felement .custom-switch .form-check {
+    align-items: normal;
+    padding-left: 0;
+}
+
+.path-mod-pulse-automation form.mform .tab-content .tab-pane .fitem .felement .custom-switch .checkboxgroupautomation {
+    width: 2.5rem;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.reportbuilder-report table tbody td a.pulse-automation-info-block i {
+    width: 18px;
+    height: 18px;
+    font-size: 13px;
+    color: #fff;
+    line-height: 18px;
+    text-align: center;
+    margin-left: 5px;
+    background: #0f6cbf;
+    border-radius: 50%;
+}
+
+.mod-pulse-automation-table .generalbox .sort-autotemplates {
+    float: right;
+}
+
+.mod-pulse-automation-table .generalbox .sort-autotemplates i {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.path-mod-pulse-automation #fitem_id_insreference #pulse-template-reference {
+    margin-right: 10px;
+}
+
+/* Warning message info */
+#page-mod-pulse-automation-instances-edit .pulse-warnings li span {
+    color: initial;
+}
+
+/* Behat issue fix for auto instance */
+body.behat-site .pulse-instance-status-switch input.custom-control-input {
+    position: relative;
+    z-index: -1;
+}
+
+/* Pulse 2.1 */
+.mod-pulse-emailvars-toggle .emailvars-content .pulse-email-placeholders .placeholder-body .placeholders.less {
+    width: 400px;
+    height: 25px;
+    overflow: hidden;
+}
+
+.manage-instance h6.numofinstance.emptycount {
+    color: red;
+}
+
+#manage-instance-tab .filter-form-container {
+    float: right;
+}
+
+#manage-instance-tab #manage-instance-table input.custom-control-input:not(:checked) ~ .badge {
+    display: none;
+}
+
+#manage-instance-tab .generalbox .bulkdisableinstance-btn .custom-control,
+#manage-instance-tab .generalbox .bulkenableinstance-btn .custom-control {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#manage-instance-table .table-dynamic .generaltable .menu-item-actions a {
+    color: #000;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#manage-instance-table .table-dynamic .generaltable .menu-item-actions a .custom-control .badge {
+    margin-right: 5px;
+}
+
+.mod-pulse-emailvars-toggle .emailvars-content .pulse-email-placeholders li {
+    margin-bottom: 10px;
+}
+
+.mod-pulse-emailvars-toggle .emailvars-content .pulse-email-placeholders .placeholder-head .title,
+.mod-pulse-emailvars-toggle .emailvars-content .pulse-email-placeholders .placeholder-head .help-text {
+    display: inline-block;
+}
+
+.mod-pulse-emailvars-toggle .emailvars-body {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+.mod-pulse-emailvars-toggle .emailvars-body .emailvars-head {
+    width: 100%;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.mod-pulse-emailvars-toggle .emailvars-body .emailvars-head a {
+    font-weight: bold;
+    color: #000;
+    padding: 20px;
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.mod-pulse-emailvars-toggle .emailvars-body .emailvars-head .email-vars-button {
+    display: flex;
+    align-items: center;
+}
+
+.mod-pulse-emailvars-toggle .emailvars-body .emailvars-head .email-vars-button i {
+    width: 100%;
+    text-align: right;
+}
+
+.mod-pulse-emailvars-toggle .emailvars-body .emailvars-content .card-body {
+    border: 0;
+    border-radius: 0;
+    background: none;
+    padding-top: 0;
+}
+
+.mod-pulse-emailvars-toggle .emailvars-body .emailvars-content .pulse-email-placeholders {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.mod-pulse-emailvars-toggle .emailvars-body .emailvars-content .placeholder-head .title h6 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.mod-pulse-emailvars-toggle .emailvars-body .emailvars-content .placeholder-body .placeholders a {
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #ffe99c;
+    padding: 1px 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.mod-pulse-emailvars-toggle .emailvars-body .emailvars-content .placeholder-body .showmore {
+    margin-bottom: 5px;
+}
+
+.mod-pulse-emailvars-toggle .emailvars-body .emailvars-content .placeholder-body .showmore a {
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.mod-pulse-emailvars-toggle .emailvars-body .emailvars-content .placeholders-document h6 {
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+#manage-instance-tab.show + .femptylabel,
+#manage-instance-tab.show ~ .required {
+    display: none;
+}
+
+div#pulsetemplates-tab-content .tab-pane.active {
+    display: block;
+}
+
+div#pulsetemplates-tab-content .tab-pane.active .fitem .felement .override-count-element {
+    cursor: pointer;
+}
+
+div#pulsetemplates-tab-content .tab-pane {
+    display: none;
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+    .mod-pulse-emailvars-toggle .emailvars-content .pulse-email-placeholders .placeholder-body .placeholders.less {
+        width: auto;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 500px) {
+    .mod-pulse-emailvars-toggle .emailvars-content .pulse-email-placeholders .placeholder-body .placeholders.less {
+        width: auto;
+        max-width: 400px;
+    }
+}
+
+/* Increase the height for the training data fields */
+.mod-pulse-emailvars-toggle .emailvars-content .pulse-email-placeholders .placeholder-body
+.placeholders.less#firstcontent-Training_field-morebutton {
+    height: 60px;
+}
+
+/*Email placeholder expand tab*/
+.form-description .mod-pulse-emailvars-toggle .form-group > .col-md-3 {
+    display: none;
+}
+
+.form-description .mod-pulse-emailvars-toggle .form-group > .col-md-9 {
+    max-width: none;
+    flex: auto;
+}
+
+#page-admin-mod-pulse-automation-templates-edit div.condition-block {
+    padding-top: 15px;
+    border-bottom: 1px solid #ccc;
+}

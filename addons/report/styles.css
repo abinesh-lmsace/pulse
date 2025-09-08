@@ -1,0 +1,23 @@
+.pulse-report-selector-parent .pulse-report-wrapper .form-group label,
+.pulse-report-selector-parent .pulse-report-wrapper .form-group {
+    margin-right: 15px;
+}
+
+.pulse-report-selector-parent {
+    margin-bottom: 25px;
+}
+
+
+/* .path-course-view .pulse-completion-btn div {
+    display: inline;
+} */
+
+#page-mod-pulse-addons-report-report span.invitation-list {
+    display: block;
+}
+
+#page-mod-pulse-addons-report-report label.previous-reminders {
+    color: #848484;
+    margin-top: 10px;
+    display: block;
+}

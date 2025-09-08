@@ -1,0 +1,83 @@
+#page-mod-pulse-addons-reaction-reaction #page-footer {
+    display: none;
+}
+
+#page-mod-pulse-addons-reaction-reaction #page {
+    margin-top: 0;
+}
+
+.course-notification-block {
+    background: #f9f9f9;
+    padding: 20px 0;
+}
+
+.course-notification-block .course-info-block a {
+    font-size: 14px;
+    padding: 15px 40px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.course-notification-block .course-info-block .logo-block a {
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.course-notification-block .course-info-block {
+    max-width: 400px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    margin: 50px auto;
+}
+
+.course-notification-block .course-info-block .content-block {
+    margin: 50px 0 10px;
+}
+
+.course-notification-block .course-info-block .content-block p {
+    font-weight: bold;
+}
+
+.course-notification-block .course-info-block .content-block p span {
+    width: 100%;
+    font-size: 14px;
+    font-weight: normal;
+    color: #999;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.course-notification-block .course-info-block .content-block .btn-block {
+    margin-top: 60px;
+}
+
+.course-notification-block .course-info-block .content-block .btn-block button {
+    padding: 10px 30px;
+}
+
+.pulse-box .pulse-box-content .no-overflow {
+    overflow: visible;
+}
+
+.path-course-view .pulse-completion-btn div {
+    display: flex;
+}
+
+.rate-reaction {
+    margin: 20px;
+    display: flex;
+    justify-content: right;
+}
+
+.rate-reaction a:not([class]):hover,
+.rate-reaction a:not([class]):focus,
+.rate-reaction a:not([class]):active {
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.rate-reaction > div:nth-child(4) {
+    margin-left: 5px;
+}

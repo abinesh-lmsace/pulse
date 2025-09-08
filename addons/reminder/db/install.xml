@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="mod/pulse/addons/reminder/db" VERSION="20211009" COMMENT="XMLDB file for Pulse Reaction addon"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd"
+>
+  <TABLES>
+    <TABLE NAME="pulseaddon_reminder" COMMENT="Reminders for pulse users">
+      <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="18" NOTNULL="true" SEQUENCE="true"/>
+        <FIELD NAME="pulseid" TYPE="int" LENGTH="18" NOTNULL="true" SEQUENCE="false"/>
+        <FIELD NAME="invitation_recipients" TYPE="char" LENGTH="50" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="first_reminder" TYPE="int" LENGTH="9" NOTNULL="true" DEFAULT="0" SEQUENCE="false"/>
+        <FIELD NAME="first_content" TYPE="text" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="first_contentformat" TYPE="text" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="first_subject" TYPE="text" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="first_recipients" TYPE="char" LENGTH="50" NOTNULL="false" DEFAULT="0" SEQUENCE="false"/>
+        <FIELD NAME="first_schedule" TYPE="int" LENGTH="2" NOTNULL="false" DEFAULT="0" SEQUENCE="false"/>
+        <FIELD NAME="first_fixeddate" TYPE="char" LENGTH="20" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="first_relativedate" TYPE="char" LENGTH="20" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="second_reminder" TYPE="int" LENGTH="9" NOTNULL="true" DEFAULT="0" SEQUENCE="false"/>
+        <FIELD NAME="second_content" TYPE="text" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="second_contentformat" TYPE="text" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="second_subject" TYPE="text" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="second_recipients" TYPE="char" LENGTH="50" NOTNULL="false" DEFAULT="0" SEQUENCE="false"/>
+        <FIELD NAME="second_schedule" TYPE="int" LENGTH="2" NOTNULL="false" DEFAULT="0" SEQUENCE="false"/>
+        <FIELD NAME="second_fixeddate" TYPE="char" LENGTH="20" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="second_relativedate" TYPE="char" LENGTH="20" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="recurring_reminder" TYPE="int" LENGTH="9" NOTNULL="true" DEFAULT="0" SEQUENCE="false"/>
+        <FIELD NAME="recurring_content" TYPE="text" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="recurring_contentformat" TYPE="text" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="recurring_subject" TYPE="text" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="recurring_recipients" TYPE="char" LENGTH="50" NOTNULL="false" DEFAULT="0" SEQUENCE="false"/>
+        <FIELD NAME="recurring_relativedate" TYPE="char" LENGTH="20" NOTNULL="false" SEQUENCE="false"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+      </KEYS>
+      <INDEXES>
+        <INDEX NAME="pulseid" UNIQUE="false" FIELDS="pulseid"/>
+      </INDEXES>
+    </TABLE>
+    <TABLE NAME="pulseaddon_reminder_notified" COMMENT="Table stores the users pulse available time and reminders notified status and time">
+      <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="18" NOTNULL="true" SEQUENCE="true"/>
+        <FIELD NAME="pulseid" TYPE="int" LENGTH="9" NOTNULL="true" SEQUENCE="false"/>
+        <FIELD NAME="userid" TYPE="int" LENGTH="9" NOTNULL="true" SEQUENCE="false"/>
+        <FIELD NAME="status" TYPE="int" LENGTH="2" NOTNULL="true" DEFAULT="0" SEQUENCE="false"/>
+        <FIELD NAME="reminder_type" TYPE="char" LENGTH="10" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="reminder_status" TYPE="int" LENGTH="2" NOTNULL="false" DEFAULT="0" SEQUENCE="false"/>
+        <FIELD NAME="reminder_time" TYPE="int" LENGTH="18" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="foruserid" TYPE="int" LENGTH="18" NOTNULL="false" DEFAULT="0" SEQUENCE="false"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+      </KEYS>
+      <INDEXES>
+        <INDEX NAME="pulseid" UNIQUE="false" FIELDS="pulseid, userid, foruserid"/>
+      </INDEXES>
+    </TABLE>
+  </TABLES>
+</XMLDB>
